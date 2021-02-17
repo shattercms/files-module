@@ -1,0 +1,44 @@
+{
+  "name": "@shattercms/files",
+  "version": "0.1.0",
+  "description": "ShatterCMS submodule for handling and serving static files.",
+  "keywords": [
+    "shattercms"
+  ],
+  "homepage": "https://github.com/shattercms/files-module/blob/main/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shattercms/files-module.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shattercms/files-module/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "email": "mail@pallas-florian.de",
+    "name": "Florian Pallas",
+    "url": "https://www.pallas-florian.de"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc -w"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.3",
+    "type-graphql": "^1.1.1",
+    "typeorm": "^0.2.28",
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {
+    "@shattercms/types": "^0.5.1",
+    "graphql-upload": "^11.0.0"
+  }
+}
