@@ -32,6 +32,7 @@
     "access": "public"
   },
   "devDependencies": {
+    "@types/graphql-upload": "^8.0.4",
     "@types/node": "^15.6.2",
     "type-graphql": "^1.1.1",
     "typeorm": "^0.2.33",
